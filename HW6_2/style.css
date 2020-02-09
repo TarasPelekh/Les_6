@@ -1,0 +1,93 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Trebuchet, Arial, sans-serif;
+}
+
+.top {
+    background-color: rgb(74, 79, 86);
+    height: 117px;
+    color: #EB7E7F;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+h1  {
+    font-size: 45px;
+}
+
+p {
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(59, 63, 69);
+}
+
+ul {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    list-style: none;
+    background-color: rgb(136, 131, 158);
+}
+
+footer {
+    width: 763px;
+    padding: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #EB7E7F;
+    margin-top: 55px;
+    background-color: #4A4F56;
+}
+
+li {
+    height: 64px;
+    padding-left: 15px;
+    font-size: 30px;
+    line-height: 64px;
+    color: #f9f9f9;
+}
+
+li:nth-child(even) {
+background-color: rgb(122, 117, 147);
+}
+
+li:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    box-sizing: border-box;
+    line-height: 56px;
+    background-color: rgb(98, 94, 119);
+    transition: all .2s ease-in;
+}
+
+li:active {
+    background-color: #EB7E7F;
+}
+
+input:checked + label {
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
+
+input:checked + label span {
+    color: #a3a0b5;
+}
+
+[spn] {
+font-size: 20px;
+color: #cdcbd6;
+}
+
+.ba::before {
+    content: "(";
+}
+
+.ba::after {
+    content: ")";
+}

@@ -1,0 +1,39 @@
+svg {
+    padding-top: 50px;
+}
+path {
+    transition: all .3s ease-in;
+}
+
+svg:hover path:first-of-type {
+fill: white;
+}
+
+svg:hover path:last-of-type {
+fill: rgb(18, 117, 185);
+}
+
+
+.pic {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+
+p:last-of-type{
+    color: gray;
+    
+}
+
+p:first-of-type {
+    font-weight: 900;
+}
